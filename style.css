@@ -1,0 +1,53 @@
+body {
+  background-color: #CD1C38;
+}
+
+
+img {
+  position: relative;
+  left: 43%;
+  top: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.stop{
+  position: relative;
+  left: 40%;
+  height: 40px;
+  width: 25%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color:inherit;
+}
+.expand {
+  position: relative;
+  top: 10px;
+  left: 30%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+
+
+
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  img {
+    position: relative;
+    left: 35%;
+  }
+}
