@@ -6,16 +6,16 @@ body {
 img {
   position: relative;
   left: 43%;
-  top: 30px;
+  top: 40px;
   height: 200px;
   width: 250px;
 }
 
 .stop{
   position: relative;
-  left: 40%;
+  left: 20%;
   height: 40px;
-  width: 25%;
+  width: 60%;
   text-align: center;
   line-height: 40px;
   font-weight: bold;
@@ -23,6 +23,34 @@ img {
   background-color: white;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+#due1 {
+  position: relative;
+  top: 40px;
+  left: -114px;
+  display: none;
+}
+
+#manageOne {
+  display: none;
+  text-decoration: none;
+  position: relative;
+  top: 80px;
+  left: 130px;
+}
+
+#due2 {
+  position: relative;
+  display: none;
+  top: 50px;
+}
+
+#due3 {
+  position: relative;
+  display: none;
+  top: 60px;
+  left: 50px;
 }
 
 .link {
@@ -33,6 +61,15 @@ img {
   position: relative;
   top: 10px;
   left: 30%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+#expand1 {
+  position: relative;
+  top: -70px;
+  left:40%;
   height: 25px;
   width: 25px;
   cursor: pointer;
