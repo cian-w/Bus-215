@@ -1,5 +1,8 @@
-body {
+html,body {
   background-color: #CD1C38;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -76,15 +79,33 @@ img {
 }
 
 
+#map {
+  position: relative;
+  left: 20%;
+  top: 100px;
+  width: 60%;
+  height: 50%;
+  -webkit-box-shadow: 0px 1px 14px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 14px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 14px 4px rgba(0,0,0,0.75);
+ }
 
 
 
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width : 768px) {
+
   img {
     position: relative;
     left: 35%;
+  }
+
+  #map {
+    width: 100%;
+    top: 0;
+    left:0;
+    height: 60%;
+    -webkit-box-shadow: 0px 3px 13px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 13px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 13px 1px rgba(0,0,0,0.75);
   }
 }
