@@ -1,8 +1,10 @@
 <html>
   <title>215 Bus</title>
   <head>
-    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-    <script src='script.js'></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMBBrJ3KQQymQZ6R55SflEzbabgcN-l6k" async defer></script>
+    <script src='map.js'></script>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
@@ -12,17 +14,24 @@
     </div>
 
     <div class='stop' id='stop1'>
-      <a href='stop1.html' class='link'> St Annes Rd, Opp Willison Park</a>
+      <a class='link'> St Annes Rd, Opp Willison Park</a>
       <span id='due1'></span><br>
       <span id='due2'></span><br>
       <span id='due3'></span>
       <img src='expand.png' class='expand' id='expand1'>
-      <a href='stop1.html' id='manageOne'>Manage Stop</a>
+      <a id='manageOne'>Manage Stop</a>
     </div>
 
 
     <div class='stop' id='stop2'><a href='stop2.html' class='link'>Add Stop</a><img src='expand.png' class='expand'></div>
     <div class='stop' id='stop3'><a href='stop3.html' class='link'>Add Stop</a><img src='expand.png' class='expand'></div>
+
+
+
+    <div class='popup'>
+      <div id='map'></div>
+      <button id='cancel'>Cancel</button>
+    </div>
 
 
 

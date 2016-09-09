@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
   $('.expand').click(function(){
@@ -8,12 +10,14 @@ $(document).ready(function() {
     $('#due2').show();
     $('#due3').show();
     $('#manageOne').show();
-
   });
 
-
+  $('#manageOne').click(function(){
+    $('.popup').show();
+  });
 
 });
+
 
 
 var xmlhttp = new XMLHttpRequest();
