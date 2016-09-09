@@ -6,6 +6,17 @@ var map;
           mapTypeId: 'hybrid'
         });
 
+        var styles = [
+          {
+            'featureType': 'transit.station.bus',
+            'stylers': [{
+              'visibility': 'off'
+            }]
+          }
+        ];
+
+        map.setOptions({styles:styles});
+
 
       }
 
@@ -22,9 +33,11 @@ var map;
         });
 
         $('#manageOne').click(function(){
-          initMap();
           $('.popup').show();
         });
+
+        $('#manageOne').on('click',initMap);
+
 
         $('#cancel').on('click', function(){
           $('.popup').hide();
@@ -41,7 +54,6 @@ var map;
         if (this.readyState == 4 && this.status == 200) {
           var myArr = JSON.parse(this.responseText);
           myFunction(myArr);
-          console.log(myArr);
         }
       };
       xmlhttp.open("GET", url, true);
