@@ -41,13 +41,13 @@ img {
 #cancel {
   position: relative;
   top: 70%;
-  left: 48%;
+  left: 40%;
 }
 
 #save {
   position: relative;
   top: 70%;
-  left: 52%;
+  left: 48%;
 }
 
 #due1 {
@@ -117,8 +117,8 @@ img {
 
  #stopName {
    position: absolute;
-   top: 400px;
-   left: 45%;
+   top: 500px;
+   left: 35%;
  }
 
 
@@ -147,5 +147,34 @@ img {
     position: relative;
     top: 140px;
     left: -20px;
+  }
+
+  #stopName {
+    position: absolute;
+    top: 430px;
+    left: 10%;
+    width: 80%;
+  }
+
+
+  #cancel {
+    position: relative;
+    top: 80%;
+    left: 20%;
+  }
+
+  #save {
+    position: relative;
+    top: 80%;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width : 414px) {
+  #stopName {
+    position: absolute;
+    top: 380px;
+    left: 2%;
+    width: 96%;
   }
 }
