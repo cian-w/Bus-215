@@ -44,6 +44,12 @@ img {
   left: 48%;
 }
 
+#save {
+  position: relative;
+  top: 70%;
+  left: 52%;
+}
+
 #due1 {
   position: relative;
   top: 40px;
@@ -55,8 +61,9 @@ img {
   display: none;
   text-decoration: none;
   position: relative;
-  top: 80px;
-  left: 130px;
+  top: 110px;
+  left: 100px;
+  cursor: pointer;
 }
 
 #due2 {
@@ -75,6 +82,7 @@ img {
 .link {
   text-decoration: none;
   color:inherit;
+  cursor: pointer;
 }
 .expand {
   position: relative;
@@ -107,12 +115,18 @@ img {
  }
 
 
+ #stopName {
+   position: absolute;
+   top: 400px;
+   left: 45%;
+ }
+
 
 @media screen and (max-width : 768px) {
 
   img {
     position: relative;
-    left: 35%;
+    left: 20%;
   }
 
   .stop {
@@ -125,5 +139,13 @@ img {
     top: 0;
     left:0;
     height: 50%;
+  }
+
+  #manageOne {
+    display: none;
+    text-decoration: none;
+    position: relative;
+    top: 140px;
+    left: -20px;
   }
 }
