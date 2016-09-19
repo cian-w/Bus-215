@@ -3,11 +3,11 @@ var marker;
 var chosenStopID;
 
 var stops = [
-  {name:'Cloghroe (Coolflugh Terminus)',id:213421,  lat:51.9219465100951 ,long:-8.61797176722262},
-  {name:'Tower (Model Village)',id:213431, lat:51.9270744 ,long:-8.6105043},
-  {name:'Tower Village (Shournagh Valley)', id:213441, lat:51.9254898 ,long:-8.6100269},
-  {name:'	St. Annes Hill (Opp Primrose Hill)', id:213451, lat:51.9264227 ,long:-8.6051399},
-  {name:'St. Annes Hill (Opp Riverview)', id:213461, lat:51.9279499 ,long:-8.5975348},
+  {name:'Cloghroe (Coolflugh Terminus)',id:213421,  lat:51.9219469 ,long:-8.6179724},
+  {name:'Tower (Model Village)',id:213431, lat:51.9244248 ,long:-8.6133094},
+  {name:'Tower Village (Shournagh Valley)', id:213441, lat:51.9254123 ,long:-8.6085096},
+  {name:'	St. Annes Hill (Opp Primrose Hill)', id:213451, lat:51.9265999 ,long:-8.6030298},
+  {name:'St. Annes Hill (Opp Riverview)', id:213461, lat:51.9281944 ,long:-8.5970029},
   {name:'St. Annes Rd (Opp Willison Park)',id:213471, lat:51.9296511, long:-8.5915554},
   {name:'St. Annes Rd (Opp Glenmaroon Hse)',id:213481, lat:51.930944 ,long:-8.5864685},
   {name:'St. Annes Rd (Blarney School)',id:213491, lat:51.934171 ,long:-8.5718518},
